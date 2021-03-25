@@ -5,6 +5,8 @@ const search = document.getElementById('search'),
     resultHeading = document.getElementById('result-heading'),
     single_mealEl = document.getElementById('single-meal');
 
+
+
 function searchMeal(e) {
     e.preventDefault();
 
@@ -48,3 +50,5 @@ function searchMeal(e) {
 // Event Listners
 
 submit.addEventListener('submit', searchMeal);
+
+
